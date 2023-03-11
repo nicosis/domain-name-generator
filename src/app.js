@@ -2,20 +2,20 @@ function domainNameGen() {
   let pronoun = ["el", "un"];
   let adj = ["gran", "fuerte"];
   let noun = ["monstruo", "animal"];
-  let extention = ["com", "net", "org", "es"];
+  let extention = ["com", "net", "org"];
 
-  let string = [];
+  let result = [];
 
   for (let i of pronoun) {
     for (let x of adj) {
       for (let y of noun) {
         for (let z of extention) {
-          string.push(i + x + y + "." + z);
+          result.push(i + x + y + "." + z);
         }
       }
     }
   }
-  return string;
+  return result;
 }
 
 console.log(domainNameGen());
