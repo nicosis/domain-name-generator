@@ -1,18 +1,7 @@
-/* eslint-disable */
-/* import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() { */
-// console.log("Hello Rigo from the console!");
-//write your code here
-
-function combination() {
-  let pronoun = ["el", "la"];
-  let adj = ["gran", "chocho"];
-  let noun = ["jogger", "racoon"];
+function domainNameGen() {
+  let pronoun = ["el", "un"];
+  let adj = ["gran", "fuerte"];
+  let noun = ["monstruo", "animal"];
   let extention = ["com", "net", "org", "es"];
 
   let string = [];
@@ -26,8 +15,7 @@ function combination() {
       }
     }
   }
-
   return string;
 }
 
-console.log(combination());
+console.log(domainNameGen());
